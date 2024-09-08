@@ -1,0 +1,25 @@
+.whatwehave{
+    background-color: #ead2b3 !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    margin-top: 10vmin;
+    height: 10vmin;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.whatwehavediv{
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.whatwehavedivimg{
+    height: 5vmin;
+    padding-right: 7%;
+}

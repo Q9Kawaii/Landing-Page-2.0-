@@ -1,0 +1,26 @@
+.cards{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.interactivecards{
+    height: 70vmin;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    transition: flex 0.5s;
+}
+.cards:hover{
+    flex: 1.6;
+}

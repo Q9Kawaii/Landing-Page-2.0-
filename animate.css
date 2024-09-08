@@ -1,0 +1,103 @@
+.coffee-div {
+    width: 60vmin;
+    height: 68.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+    .coffee-oval{
+        width: 60vmin;
+        height: 50vmin;
+        background-color: #c5ac7c;
+        border-radius: 61% 39% 45% 55% / 58% 42% 58% 42% ;
+        transition: 0.3s ease-in-out;
+    }
+    
+
+        .sideimg-0{
+            position: absolute;
+            height: 65%;
+            padding-bottom: 20vmin;
+            transition: transform 0.3s ease-in-out;
+        }
+        .sideimg-0:hover{
+            transform: scale(1.04);
+        }
+
+.small-ovals {
+    display: flex;
+    flex: 0.8;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-right: 5%;
+}
+    .sm1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+        .small-oval-1 {
+            width: 20vmin;
+            height: 20vmin;
+            background-color: #725229;
+            border-radius: 31% 69% 35% 65% / 35% 66% 34% 65%  ;
+            transform: rotate(-10deg);
+            
+        }
+            .sideimg-1{
+                position: absolute;
+                height: 25vmin;
+                transition: transform 0.3s ease-in-out;
+            }
+            .sideimg-1:hover{
+                transform: scale(1.04);
+            }
+    .sm2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+        .small-oval-2 {
+            width: 20vmin;
+            height: 20vmin;
+            background-color: #725229;
+            border-radius: 66% 34% 62% 38% / 67% 32% 68% 33%  ;
+            transform: rotate(25deg);
+            
+        }
+            .sideimg-2{
+                position: absolute;
+                height: 25vmin;
+                transition: transform 0.3s ease-in-out;
+            }
+            .sideimg-2:hover{
+                transform: scale(1.04);
+            }
+    .sm3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+        .small-oval-3 {
+            width: 20vmin;
+            height: 20vmin;
+            background-color: #725229;
+            border-radius: 31% 69% 35% 65% / 35% 66% 34% 65% ;
+            transform: rotate(-25deg);
+            
+        }
+            .sideimg-3{
+                position: absolute;
+                height: 25vmin;
+                transition: transform 0.3s ease-in-out;
+            }
+            .sideimg-3:hover{
+                transform: scale(1.04);
+            }
